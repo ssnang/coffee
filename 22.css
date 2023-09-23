@@ -1,0 +1,31 @@
+.about .box-container .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about .box-container .row .image{
+    flex: 1 1 45rem;
+}
+.about .box-container .row .image img{
+   margin: 10rem;
+}
+.about .box-container .row .content{
+   flex:1 1 45rem;
+}
+.about .box-container .row .content p{
+    font-size: 2rem;
+    color: navy;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.about .box-container .row .content h1{
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.row .image .image2{
+    width: 50%;
+    height: 10%;
+    border-radius: 20%;
+
+}
